@@ -2,5 +2,7 @@
 
 ToneTags is a bot to help people familiarize themselves with tone tags/indicators to ease communication for everyone.
 
-Invite the bot [here](https://discord.com/api/oauth2/authorize?client_id=1049042644107546664&permissions=329728&scope=bot%20applications.commands)
+Make sure to read [the wiki](https://github.com/astridlol/tonetags/wiki/What-are-tone-tags%3F%3F) to understand everything there is to know about tone tags.
+
+Invite the bot [here](https://discord.com/api/oauth2/authorize?client_id=1049042644107546664&permissions=329728&scope=bot%20applications.commands) 💜
 
