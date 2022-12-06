@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS", // required
+		"target": "ESNext", // required
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"strict": true,
+		"outDir": "dist",
+		"emitDecoratorMetadata": true, // required
+		"experimentalDecorators": true, // required
+		"declaration": false,
+		"importHelpers": true, // required
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "Node", // required
+		"esModuleInterop": true, // required
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"suppressImplicitAnyIndexErrors": true
+	},
+	"exclude": ["node_modules"]
+}

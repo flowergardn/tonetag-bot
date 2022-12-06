@@ -1,0 +1,112 @@
+{
+	"srs": {
+		"full-form": "serious",
+		"description": "used to declare seriousness",
+		"examples": ["You're sooo cool /srs"]
+	},
+	"nsrs": {
+		"full-form": "not serious",
+		"description": "used when saying something not too seriously",
+		"examples": ["you're the worst /nsrs"]
+	},
+	"s": {
+		"full-form": "sarcasm",
+		"description": "used to declare sarcasm",
+		"examples": ["I'm so popular /s", "I really love feeling sad /s"]
+	},
+	"hj": {
+		"full-form": "half joking",
+		"description": "used when saying something that is kind of a joke but kind of serious",
+		"examples": ["well I am usually right /hj"]
+	},
+	"j": {
+		"full-form": "joking",
+		"description": "used when saying something in a joking manner",
+		"examples": ["buy me nitro /j", "let's move in together /j"]
+	},
+	"lh": {
+		"full-form": "lighthearted",
+		"description": "used when saying something lightheartedly",
+		"examples": ["hey leave me out of this /lh", "would rather not /lh"]
+	},
+	"g": {
+		"full-form": "genuine",
+		"description": "used when being genuine, or when asking a legitimate question",
+		"examples": ["I'm proud of you /g", "are you sure about that? /g"]
+	},
+	"ij": {
+		"full-form": "inside joke",
+		"description": "used to declare something only a small and / or specific group of people are aware of",
+		"examples": []
+	},
+	"ref": {
+		"full-form": "reference",
+		"description": "used when referring to something, like a show or movie",
+		"examples": ["It's spherical! spherical!! /ref"]
+	},
+	"t": {
+		"full-form": "teasing",
+		"description": "used when teasing someone",
+		"examples": ["okay miss green bubble. /t", "ok sure mr 'idk what I'm doing' /t"]
+	},
+	"nm": {
+		"full-form": "not mad",
+		"description": "used to indicate you are not actually mad or upset about something",
+		"examples": ["she's ignoring me /nm"]
+	},
+	"nf": {
+		"full-form": "not forced",
+		"description": "used when asking someone to do something that is not important / needed",
+		"examples": ["make that an announcement /nf", "retweet this /nf"]
+	},
+	"nbr": {
+		"full-form": "not being rude",
+		"description": "used to mention something without it coming off as rude",
+		"examples": ["I don't think you're doing that right /nbr"]
+	},
+	"th": {
+		"full-form": "threat",
+		"description": "used when giving a threat",
+		"examples": ["if you don't stop I will block you /th"]
+	},
+	"cb": {
+		"full-form": "clickbait",
+		"description": "used when using clickbait",
+		"examples": ["omg look [celebrity] said [thing]", "this tool will change your entire perspective on life!! /cb"]
+	},
+	"ly": {
+		"full-form": "lyrics",
+		"description": "used when quoting specifically song lyrics",
+		"examples": ["I left her a note but I kept it secret in my hеad /lyr", "Peaceful, I could sleep peaceful finally /lyrs"]
+	},
+	"li": {
+		"full-form": "literal",
+		"description": "used when saying something literally",
+		"examples": ["wowie I don't like that /li"]
+	},
+	"hyp": {
+		"full-form": "hyperbole",
+		"description": "used when using a hyperbole",
+		"examples": ["I have a million things to do today /hyp"]
+	},
+	"ex": {
+		"full-form": "exaggeration",
+		"description": "used when exaggerating",
+		"examples": ["what took you so long? I was waiting forever /ex"]
+	},
+	"p": {
+		"full-form": "platonic",
+		"description": "used when saying something with platonic intentions",
+		"examples": ["I love you /p"]
+	},
+	"r": {
+		"full-form": "romantic",
+		"description": "used when saying something with romantic intentions",
+		"examples": ["I love you /r"]
+	},
+	"neu": {
+		"full-form": "neutral",
+		"description": "used to show what you are saying is neutral, you don't care but not in a negative or mean way.",
+		"examples": ["oh yeah I don't care /neu"]
+	}
+}
