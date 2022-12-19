@@ -31,7 +31,8 @@ class Info {
 		]);
 
 		const button = new ButtonBuilder().setLabel('View on GitHub').setStyle(ButtonStyle.Link).setURL('https://github.com/astridlol/tonetags');
-		const row = new ActionRowBuilder<ButtonBuilder>().addComponents(button);
+		const button1 = new ButtonBuilder().setLabel('Vote').setStyle(ButtonStyle.Link).setURL('https://top.gg/bot/1049042644107546664');
+		const row = new ActionRowBuilder<ButtonBuilder>().addComponents(button, button1);
 
 		await interaction.reply({
 			components: [row],
