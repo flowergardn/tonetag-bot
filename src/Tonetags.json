@@ -108,5 +108,10 @@
 		"full-form": "neutral",
 		"description": "used to show what you are saying is neutral, you don't care but not in a negative or mean way.",
 		"examples": ["oh yeah I don't care /neu"]
+	},
+		"gen": {
+		"full-form": "genuine",
+		"description": "to show you are serious about something.",
+		"examples": ["I am glad you did not get hurt /gen"]
 	}
 }
