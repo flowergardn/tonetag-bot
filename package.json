@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.8.2",
+    "axios": "^1.7.2",
+    "discord-api-types": "^0.37.86",
+    "hono": "^4.4.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240403.0",
+    "@types/node": "^20.12.13",
+    "prettier": "^3.2.5",
+    "wrangler": "^3.47.0"
+  }
+}
