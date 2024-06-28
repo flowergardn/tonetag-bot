@@ -28,7 +28,7 @@ app.post("/", async (ctx) => {
   const timestamp = ctx.req.header("x-signature-timestamp");
 
   if (!signature || !timestamp) {
-    console.log("Missing signature or timestamp");
+    console.error("Missing signature or timestamp");
     throw new HTTPException(400, {
       message: "Bad request signature.",
     });
@@ -41,6 +41,7 @@ app.post("/", async (ctx) => {
   );
 
   if (!isVerified) {
+    console.error("Failed to validate request signature.");
     throw new HTTPException(400, {
       message: "Failed to validate request signature.",
     });
@@ -55,18 +56,14 @@ app.post("/", async (ctx) => {
   }
 
   if (body.type == InteractionType.ApplicationCommand) {
-    console.log("Received interaction from Discord");
     const interaction = body as Interaction;
 
     try {
-      console.log("woah")
       const command = await import(`./commands/process`);
-      console.log("woah 2")
       const commandResponse = await command.execute({
         interaction,
         ctx,
       });
-      console.log("woah 3", commandResponse)
       // actually returns the response in the req body
       return ctx.json(commandResponse);
     } catch (err: any) {
